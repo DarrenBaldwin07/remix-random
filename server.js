@@ -1,6 +1,7 @@
 import { createRequestHandler } from "@remix-run/netlify";
 import * as build from "@remix-run/dev/server-build";
 
+// NOTE: This is a netlify thing and is not related to Remix
 /*
  * Returns a context object with at most 3 keys:
  *  - `netlifyGraphToken`: raw authentication token to use with Netlify Graph
