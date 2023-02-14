@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@netlify/functions': ^1.3.0
-  '@rapid-web/ui': ^0.0.1
+  '@rapid-web/ui': ^0.0.4
   '@remix-run/dev': ^1.12.0
   '@remix-run/eslint-config': ^1.12.0
   '@remix-run/netlify': ^1.12.0
@@ -22,7 +22,7 @@ specifiers:
 
 dependencies:
   '@netlify/functions': 1.4.0
-  '@rapid-web/ui': 0.0.1_biqbaboplfbrettd7655fr4n2y
+  '@rapid-web/ui': 0.0.4_biqbaboplfbrettd7655fr4n2y
   '@remix-run/netlify': 1.12.0_@netlify+functions@1.4.0
   '@remix-run/node': 1.12.0
   '@remix-run/react': 1.12.0_biqbaboplfbrettd7655fr4n2y
@@ -1679,8 +1679,8 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /@rapid-web/ui/0.0.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-pYUnWMGbAphZR5El+UnTNtRYBoe4BlNRBHpuYFLaqXK+Jn1L6GoTGptUFeOVg08YIGw+tx5FhetpQk0TxR3jEA==}
+  /@rapid-web/ui/0.0.4_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-rXyeeWTh96HCsN4akKSvxgje5pjPHChbDh6ejOuV7Neo/PsSZinBdyZQ5mJyGRDhtlASNFklyoRX8vc0tc9+Gg==}
     peerDependencies:
       react: '>=18.2.0'
       react-dom: '>=18.2.0'

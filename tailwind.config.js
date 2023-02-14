@@ -1,10 +1,22 @@
+const { rapidStylesPath, rapidTailwindTheme, rapidPlugin } = require("@rapid-web/ui");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./app/**/*.{js,jsx,ts,tsx}', rapidStylesPath],
   theme: {
-    extend: {},
+    extend: {
+      ...rapidTailwindTheme,
+      colors: {
+        main: '#1D2125'
+      },
+    },
   },
-  plugins: [],
+  plugins: [rapidPlugin(
+    {
+      global: {
+        'body': {
+          backgroundColor: '#1D2125'
+        }
+      }
+    }
+  )],
 }

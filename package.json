@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@netlify/functions": "^1.3.0",
-    "@rapid-web/ui": "^0.0.1",
+    "@rapid-web/ui": "^0.0.4",
     "@remix-run/netlify": "^1.12.0",
     "@remix-run/node": "^1.12.0",
     "@remix-run/react": "^1.12.0",
