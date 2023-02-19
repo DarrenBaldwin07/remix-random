@@ -2,19 +2,24 @@ const { rapidStylesPath, rapidTailwindTheme, rapidPlugin } = require("@rapid-web
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./app/**/*.{js,jsx,ts,tsx}', rapidStylesPath],
+
   theme: {
-    extend: {
-      ...rapidTailwindTheme,
+    extend: rapidTailwindTheme({
+      // We can extend the base rapidtailwind theme here
       colors: {
-        main: '#1D2125'
+        primary: '#1D2125'
       },
-    },
+      fontFamily: {
+        'archivo': ['Archivo']
+      },
+    })
   },
   plugins: [rapidPlugin(
     {
       global: {
         'body': {
-          backgroundColor: '#1D2125'
+          backgroundColor: '#1D2125',
+          fontFamily: 'archivo'
         }
       }
     }

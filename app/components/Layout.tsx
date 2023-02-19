@@ -9,7 +9,7 @@ interface Props {
 const Layout: React.FC<Props> = ({ children }: Props) => {
   return (
     <div>
-        <Container>
+        <Container maxWidth='sm'>
           <Navigation />
           {children}
         </Container>
