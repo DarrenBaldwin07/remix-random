@@ -7,7 +7,10 @@ module.exports = {
     extend: rapidTailwindTheme({
       // We can extend the base rapidtailwind theme here
       colors: {
-        primary: '#1D2125'
+        primary: '#1D2125',
+      },
+      boxShadow: {
+        'test': 'inset 0 0 0 16px red'
       },
       fontFamily: {
         'archivo': ['Archivo']
